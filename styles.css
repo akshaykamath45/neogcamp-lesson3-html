@@ -25,9 +25,6 @@ hr{
     margin:auto
 }
 
-.container-fluid{
-
-}
 
 /**Links**/
 .link{
@@ -83,6 +80,7 @@ hr{
 
 .hero{
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img{
@@ -116,7 +114,7 @@ hr{
 
 
 /**footers*/
-footer{
+.footer{
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
@@ -126,6 +124,11 @@ footer{
 
 .footer .link{
     color: white;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer ul{
