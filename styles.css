@@ -8,6 +8,9 @@ body{
     'Montserrat',
      sans-serif;
 }
+hr{
+    margin:2rem 0rem;
+}
 
 /**Container**/
 .container{
@@ -30,7 +33,7 @@ body{
 }
 .link-primary{
     background-color: var(--primary-color);
-    border-radius: 0.5 rem;
+    border-radius: 0.5rem;
     color: white;
 }
 .link-secondary{
