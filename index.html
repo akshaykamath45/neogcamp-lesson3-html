@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <!--CSS Way One Style Tag 
+        <style>
+        body{
+            color: red;
+        }
+    </style> -->
+    <!-- Third Way of Doing CSS:External Link -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Welcome to akshay's component library</h1>
-    <p>I am attending neogcamp and I want to make a library which would make all my
+    <h1 id="lib-header" >akshay's component library</h1>
+    <!-- style="color: red;" CSS Way Two -->
+    <p class="para">I am attending neogcamp and I want to make a library which would make all my
         projects look good and consistent.
     </p>
     <hr>
@@ -23,7 +32,7 @@
 
     <h2>@container</h2>
     <h3>Fluid Container</h3> 
-    <div>This is a fluid container and it will go till the end of the page</div>
+    <div class="para">This is a fluid container and it will go till the end of the page</div>
     <h3>Center Container</h3> 
     <div>This is a centered container and it will go till the specified width</div>
     <hr>
@@ -46,7 +55,7 @@
         <li>Inline Item Three</li>
     </ul>
 
-    <h3>Revers Ordered List</h3>
+    <h3>Reverse Ordered List</h3>
     <ol>
         <li>Milk</li>
         <li>Eggs</li>
